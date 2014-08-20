@@ -7,3 +7,7 @@ test
 
 stash のテスト
 github側で変更
+
+
+
+下に追加しました
