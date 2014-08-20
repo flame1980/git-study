@@ -4,3 +4,5 @@ tet
 test
 
 ああああ
+
+stash のテスト
