@@ -22,19 +22,19 @@ $ git branch -a
 
 ## ブランチを作成してみる
 
-** 作成 **
+**作成**
 
 ```
 $ git branch TEST-BRANCH
 ```
 
-** 確認 **
+**確認**
 
 ```
 $ git branch
 ```
 
-** リモートにないことを確認 **
+**リモートにないことを確認**
 
 ```
 $ git branch -r
@@ -47,13 +47,13 @@ $ git checkout TEST-BRANCH
 $ git push origin TEST-BRANCH
 ```
 
-** リモートにあることを確認 **
+**リモートにあることを確認**
 
 ```
 $ git branch -r
 ```
 
-** ブランチ内のファイルに変更を加えて違いを見てみる **
+**ブランチ内のファイルに変更を加えて違いを見てみる**
 
 ```
 $ echo "branch-testです" > ./branch-test.txt
@@ -72,7 +72,7 @@ https://github.com/flame1980/git-study
 $ git branch -d TEST-BRANCH
 ```
 
-** ローカルブランチがないことを確認 **
+**ローカルブランチがないことを確認**
 
 ```
 $ git branch
@@ -84,13 +84,13 @@ $ git branch
 $ git push origin :TEST-BRANCH
 ```
 
-** リモートにないことを確認 **
+**リモートにないことを確認**
 
 ```
 $ git branch -r
 ```
 
-** 全てでもみてみる **
+**全てでもみてみる**
 
 ```
 $ git branch -a
